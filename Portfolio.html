@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTS-8" />
+        <meta name="viewport" content="width=device-width, initail-scale=1.0" />
+        <title>TEYE EVANS | PORTFOLIO</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>TEYE EVANS</h1>
+            <p>COMPUTER NETWORKING MANAGEMENT STUDENT</p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <section id="about">
+                <h2>About Me</h2>
+                <img src="image/Pho.png" alt="Teye Evans" width="200" style="border-radius: 10px;">
+                <p>Hi ! I'm Teye Evans, an HND student passionate about networking, graphic design , and full-stack development.</p>
+            </section>
+
+            <section id="Projects">
+                <h2>My Projects</h2>
+                <ul>
+                    <li>Hospital Management System(Javafx + MySQL)</li>
+                    <li>Network Setup with Cisco Packet Tracer</li>
+                </ul>
+            </section>
+
+            <section id="Contact">
+                <h2>Contact Me</h2>
+                <form onsubmit="submitform(event)">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="tel" placeholder="Your Phone Number" required>
+                    <input type="email" placeholder="Your Email " required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+
+                </form>
+            </section>
+
+            <section id="carousel">
+                <h2>My Gallary</h2>
+                <div class="carousel-wrapper">
+                
+
+                <button onclick="prevSlide()"></button>
+                <div class="carousel-container" id="carousel-container">
+                    <img src="image/Pho.png" alt="image 1">
+                    <img src="image/12.jpg" alt="image2">
+                    <img src="image/085.jpg" alt="image3">
+
+                </div>
+             
+            <button onclick="nextSlide()">
+                
+            </button>
+             </div>
+            </section>
+            <script src="js/script.js"></script>
+        
+    </body>
+</html>
